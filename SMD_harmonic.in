@@ -1,0 +1,273 @@
+Colvarstrajfrequency    100
+Colvarsrestartfrequency 1000
+
+colvar {
+    name vec1
+    
+    distanceVec {
+        group1 {
+            dummyAtom (2.322101, 15.740973, 90.887138)
+        }
+        group2 {
+            atomNumbers 4327
+        }
+    }
+}
+
+colvar {
+    name vec2
+    
+    distanceVec {
+        group1 {
+            dummyAtom (3.801033, 9.583529, 92.315102)
+        }
+        group2 {
+            atomNumbers 3487
+        }
+    }
+}
+
+colvar {
+    name vec3
+    
+    distanceVec {
+        group1 {
+            dummyAtom (-7.368620, 28.258207, 98.862175)
+        }
+        group2 {
+            atomNumbers 3739
+        }
+    }
+}
+
+
+colvar {
+    name vec4
+    
+    distanceVec {
+        group1 {
+            dummyAtom (-23.813471, -6.620903, 114.844978)
+        }
+        group2 {
+            atomNumbers 4957
+        }
+    }
+}
+
+
+colvar {
+    name vec5
+    
+    distanceVec {
+        group1 {
+            dummyAtom (-34.476337, -0.748694, 157.704498)
+        }
+        group2 {
+            atomNumbers 883
+        }
+    }
+}
+
+colvar {
+    name vec6
+    
+    distanceVec {
+        group1 {
+            dummyAtom (-33.373440, -13.125777, 144.676834)
+        }
+        group2 {
+            atomNumbers 4579
+        }
+    }
+}
+
+colvar {
+    name vec7
+    
+    distanceVec {
+        group1 {
+            dummyAtom (-49.039806, -4.055730, 163.355698)
+        }
+        group2 {
+            atomNumbers 2815
+        }
+    }
+}
+
+colvar {
+    name vec8
+    
+    distanceVec {
+        group1 {
+            dummyAtom (-41.052711, 0.130201, 144.193680)
+        }
+        group2 {
+            atomNumbers 3865
+        }
+    }
+}
+
+colvar {
+    name vec9
+    
+    distanceVec {
+        group1 {
+            dummyAtom (-27.361652, 32.548206, 188.610687)
+        }
+        group2 {
+            atomNumbers 5041
+        }
+    }
+}
+
+colvar {
+    name vec10
+    
+    distanceVec {
+        group1 {
+            dummyAtom (-11.140698, 31.827665, 185.778458)
+        }
+        group2 {
+            atomNumbers 4621
+        }
+    }
+}
+
+colvar {
+    name vec11
+    
+    distanceVec {
+        group1 {
+            dummyAtom (-21.333843, -65.175224, 226.991928)
+        }
+        group2 {
+            atomNumbers 1261
+        }
+    }
+}
+
+colvar {
+    name vec12
+    
+    distanceVec {
+        group1 {
+            dummyAtom (-16.570276, -67.606140, 205.659149)
+        }
+        group2 {
+            atomNumbers 295
+        }
+    }
+}
+
+colvar {
+    name vec13
+    
+    distanceVec {
+        group1 {
+            dummyAtom (-23.926291, -61.386620, 212.123398)
+        }
+        group2 {
+            atomNumbers 841
+        }
+    }
+}
+
+colvar {
+    name vec14
+    
+    distanceVec {
+        group1 {
+            dummyAtom (59.870312, 16.519457, 244.166946)
+        }
+        group2 {
+            atomNumbers 2398
+        }
+    }
+}
+
+colvar {
+    name vec15
+    
+    distanceVec {
+        group1 {
+            dummyAtom (60.030197, -7.947217, 227.047699)
+        }
+        group2 {
+            atomNumbers 3529
+        }
+    }
+}
+
+colvar {
+    name vec16
+    
+    distanceVec {
+        group1 {
+            dummyAtom (-55.320248, 39.704006, 207.122559)
+        }
+        group2 {
+            atomNumbers 631
+        }
+    }
+}
+
+colvar {
+    name vec17
+    
+    distanceVec {
+        group1 {
+            dummyAtom (34.852814, -5.179596, 158.390045)
+        }
+        group2 {
+            atomNumbers 2941
+        }
+    }
+}
+
+colvar {
+    name vec18
+    
+    distanceVec {
+        group1 {
+            dummyAtom (-45.591412, 54.973640, 208.460983)
+        }
+        group2 {
+            atomNumbers 1429
+        }
+    }
+}
+
+
+colvar {
+    name vec19
+    
+    distanceVec {
+        group1 {
+            dummyAtom (-8.087051, 34.978737, 159.398453)
+        }
+        group2 {
+            atomNumbers 505
+        }
+    }
+}
+
+colvar {
+    name vec20
+    
+    distanceVec {
+        group1 {
+            dummyAtom (-28.792255, 22.519352, 255.817322)
+        }
+        group2 {
+            atomNumbers 1051
+        }
+    }
+}
+harmonic {
+  colvars vec1 vec2 vec3 vec4 vec5 vec6 vec7 vec8 vec9 vec10 vec11 vec12 vec13 vec14 vec15 vec16 vec17 vec18 vec19 vec20
+  ForceConstant 2
+  centers (0, 0, 0) (0, 0, 0) (0, 0, 0) (0, 0, 0) (0, 0, 0) (0, 0, 0) (0, 0, 0) (0, 0, 0) (0, 0, 0) (0, 0, 0) (0, 0, 0) (0, 0, 0) (0, 0, 0) (0, 0, 0) (0, 0, 0) (0, 0, 0) (0, 0, 0) (0, 0, 0) (0, 0, 0) (0, 0, 0)
+  targetCenters (-30, 30, 0) (-30, 20, 0) (20, 0, 0) (-30, 0, -10) (-30, 0, 0) (-30, 0, 0) (-30, 0, 0) (-25, 0, 0) (0, 30, 0) (0, 30, 0) (0, -30, 0) (0, -30, 0) (0, -30, -20) (30, 0, 0) (30, 0, 0) (0, 0, -30) (30, 0, 0) (-30, 0, -20) (0, 30, 0) (-30, 0, 20)
+  targetNumSteps 63610000
+  
+}
